@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/styles.css') }}"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    {% block head %} {% endblock %}
+  </head>
+  <body class="h-screen bg-gray-100">
+    <nav class="flex justify-center h-1/6 items-center">
+      <a
+        class="font-bold text-4xl flex items-center justify-center cursor-pointer"
+        href="/"
+      >
+        Sign-O<span class="font-bold text-4xl text-green-600">.</span>
+      </a>
+    </nav>
+    {% block body %} {% endblock %}
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+  </body>
+</html>
