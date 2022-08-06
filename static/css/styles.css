@@ -626,6 +626,10 @@ video {
   margin-top: 1.5rem;
 }
 
+.ml-1 {
+  margin-left: 0.25rem;
+}
+
 .block {
   display: block;
 }
@@ -708,6 +712,14 @@ video {
 
 .w-8 {
   width: 2rem;
+}
+
+.w-4\/5 {
+  width: 80%;
+}
+
+.w-1\/5 {
+  width: 20%;
 }
 
 .cursor-pointer {
