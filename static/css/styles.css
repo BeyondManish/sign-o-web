@@ -678,6 +678,10 @@ video {
   height: 2rem;
 }
 
+.h-32 {
+  height: 8rem;
+}
+
 .w-screen {
   width: 100vw;
 }
@@ -720,6 +724,10 @@ video {
 
 .w-1\/5 {
   width: 20%;
+}
+
+.w-32 {
+  width: 8rem;
 }
 
 .cursor-pointer {
@@ -808,6 +816,16 @@ video {
 
 .bg-opacity-75 {
   --tw-bg-opacity: 0.75;
+}
+
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .p-4 {
